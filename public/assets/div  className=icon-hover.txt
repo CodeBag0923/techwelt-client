@@ -1,0 +1,19 @@
+ <div  className="icon-hover">
+                <img src="./assets/refresh.svg" alt="none" 
+                style={{ marginLeft: ".1rem" }}
+                />
+                </div>
+                <div  className="icon-hover">
+                <img
+                  src="./assets/S.svg"
+                  alt="none"
+                 
+                  style={{ marginLeft: ".3rem" }}
+                />
+                </div>
+                <img
+                  src="./assets/down.svg"
+                  alt="none"
+                  style={{ marginLeft: ".2rem" }}
+                  onClick={() => handlLeft1(left1State)}
+                />

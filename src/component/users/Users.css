@@ -1,0 +1,228 @@
+.subsub1-sub1-users-div2 {
+  height: 4.4rem;
+  background-color: #364153;
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr 2fr 1fr 1fr .5fr 1fr .5fr .5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:  "h1 h2 h3 h4 h5 h6 h7 h8 h9 h10";
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subsub1-sub1-users-div2 p {
+  font-size: 1.6rem;
+  color: white;
+  font-family: rbold;
+}
+
+.subsub1-sub1-users-div2 :nth-child(1) {
+  grid-area: h1;
+}
+
+.subsub1-sub1-users-div2 :nth-child(2) {
+  grid-area: h2;
+}
+
+.subsub1-sub1-users-div2 :nth-child(3) {
+  grid-area: h3;
+}
+
+.subsub1-sub1-users-div2 :nth-child(4) {
+  grid-area: h4;
+}
+
+.subsub1-sub1-users-div2 :nth-child(5) {
+  grid-area: h5;
+}
+
+.subsub1-sub1-users-div2 :nth-child(6) {
+  grid-area: h6;
+}
+
+.subsub1-sub1-users-div2 :nth-child(7) {
+  grid-area: h7;
+}
+
+.subsub1-sub1-users-div2 :nth-child(8) {
+  grid-area: h8;
+}
+
+.subsub1-sub1-users-div2 :nth-child(9) {
+  grid-area: h9;
+}
+
+.subsub1-sub1-users-div2 :nth-child(10) {
+  grid-area: h10;
+}
+
+#import-users {
+  display: flex;
+  margin-top: .5rem;
+}
+
+#sub1-import-users {
+  width: 2.7rem;
+  height: 2.7rem;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2.4rem;
+  border-top: .1rem solid #DFE0EB;
+  border-bottom: .1rem solid #DFE0EB;
+  border-left: .1rem solid #DFE0EB;
+  background-color: white;
+}
+
+.subsub1-sub2-users-div2 {
+  width: 100%;
+  height: 7.6rem;
+  border: .1rem solid #DFE0EB;
+  background-color: white;
+  display: grid;
+  grid-template-columns: .5fr 1fr 1fr 2fr 1fr 1fr .5fr 1fr .5fr .5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "b1 b2 b3 b4 b5 b6 b7 b8 b9 b10";
+  border-radius: 1rem;
+}
+
+.subsub1-sub2-users-div2 .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subsub1-sub2-users-div2 p {
+  font-family: rregular;
+  color: #7A7D8B;
+  font-size: 1.5rem;
+}
+
+.person {
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+.subsub1-sub2-users-div2 :nth-child(1) {
+  grid-area: b1;
+}
+
+.subsub1-sub2-users-div2 :nth-child(2) {
+  grid-area: b2;
+}
+
+.subsub1-sub2-users-div2 :nth-child(3) {
+  grid-area: b3;
+}
+
+.subsub1-sub2-users-div2 :nth-child(4) {
+  grid-area: b4;
+}
+
+.subsub1-sub2-users-div2 :nth-child(5) {
+  grid-area: b5;
+}
+
+.subsub1-sub2-users-div2 :nth-child(7) {
+  grid-area: b6;
+}
+
+.subsub1-sub2-users-div2 :nth-child(7) {
+  grid-area: b7;
+}
+
+.subsub1-sub2-users-div2 :nth-child(8) {
+  grid-area: b8;
+}
+
+.subsub1-sub2-users-div2 :nth-child(9) {
+  grid-area: b9;
+}
+
+.subsub1-sub2-users-div2 :nth-child(10) {
+  grid-area: b10;
+}
+
+.users-dropdown {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.users-dropdown-img {
+  height: 1.6rem;
+  cursor: pointer;
+}
+
+.users-dropdown-div {
+  width: 13.2rem;
+  height: 12.9rem;
+  border-radius: 1rem;
+  border: .1rem solid rgb(122,125,139, 50%);
+}
+
+.sub1-users-dropdown-div img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.sub1-users-dropdown-div p {
+  font-size: 1.6rem;
+  color: #374957;
+}
+
+.sub2-div2::-webkit-scrollbar{
+  width: 1.4rem;
+  margin-left: 1rem;
+}
+
+.sub2-div2::-webkit-scrollbar-track{
+  background-color: #F5F5F5;
+  border: .1rem solid #374957;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  border-bottom: 0rem;
+}
+
+.sub2-div2::-webkit-scrollbar-thumb{
+  background-color: #374957;
+  border-radius: 1rem;
+} 
+
+.user-remove{
+position: absolute;
+width: 40rem;
+height: 20rem;
+z-index: 100;
+
+background-color: white;
+top: 40rem;
+left: 80rem;
+box-shadow: 1rem 1rem 2rem grey;
+border-radius: 1rem;
+}
+.user-remove h1{
+  text-align: center;
+  padding-top: 7.5rem;
+  font-family: rbold;
+  color: #7A7D8B;
+}
+
+@media(max-width:767px) {
+  .users-main {
+    padding: 5rem 1rem 0 1rem;
+  }
+
+  .subsub1-sub2-users-div2 {
+    height: inherit;
+    background-color: #364153;
+    border-radius: 1rem;
+  }
+
+  .users-dropdown-div {
+    height: 14rem;
+  }
+
+  .users-main .sub2-div2 {
+    height: calc(100dvh - 38rem) !important;
+  }
+}

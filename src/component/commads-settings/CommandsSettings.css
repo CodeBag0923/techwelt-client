@@ -1,0 +1,40 @@
+.command-setting-main{
+  width: 100%;
+} 
+
+.sub1-command-setting-div1{
+  width: 26.6rem;
+  background-color: #D01400;
+  border: .1rem solid white;
+  box-shadow: -0.2rem 0.2rem 0.2rem grey;
+  border-radius: .5rem;
+  font-weight: 500;
+}
+
+.sub1-command-setting-div1 p {
+  font-size: 1.2rem;
+}
+
+.sub1-command-setting-div2 {
+  width: 22rem;
+  background-color: #364153;
+  border: .1rem solid white;
+  box-shadow: -0.3rem 0.3rem 0.3rem grey;
+  border-radius: .5rem;
+  font-family: rbold;
+  font-size: 1.3rem;
+}
+
+.command {
+  flex: 1;
+  border-radius: .5rem;
+  box-shadow: -0.2rem 0.2rem 0.5rem grey;
+}
+
+.command p {
+  font-size: 1.2rem;
+  font-family: rmedium;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}

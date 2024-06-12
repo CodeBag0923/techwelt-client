@@ -1,0 +1,230 @@
+.alerts-main .field-input input {
+  border: none;
+  text-align: center;
+}
+
+.subsub1-sub1-alerts-div2 {
+  height: 4.3rem;
+  background-color: #364153;
+  display: grid;
+  grid-template-columns: .7fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr;
+  grid-template-areas: "h1 h2 h3 h4 h5";
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+ 
+.subsub1-sub1-alerts-div2 p {
+  font-size: 1.6rem;
+  color: white;
+  font-family: rbold;
+}
+
+.subsub1-sub1-alerts-div2 :nth-child(1) {
+  grid-area: h1;
+}
+
+.subsub1-sub1-alerts-div2 :nth-child(2) {
+  grid-area: h2;
+}
+
+.subsub1-sub1-alerts-div2 :nth-child(3) {
+  grid-area: h3;
+}
+
+.subsub1-sub1-alerts-div2 :nth-child(4) {
+  grid-area: h4;
+}
+
+.subsub1-sub1-alerts-div2 :nth-child(5) {
+  grid-area: h5;
+}
+
+#import-alerts {
+  display: flex;
+  margin-top: .5rem;
+}
+
+#sub1-import-alerts {
+  background-color: white;
+  width: 2.7rem;
+  height: 2.7rem;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1.3rem;
+  border-top: .1rem solid #DFE0EB;
+  border-bottom: .1rem solid #DFE0EB;
+  border-left: .1rem solid #DFE0EB;
+}
+
+.subsub1-sub2-alerts-div2 {
+  width: 100%;
+  height: 5.2rem;
+  border-top: .1rem solid #DFE0EB;
+  border-left: .1rem solid #DFE0EB;
+  border-bottom:.1rem solid #DFE0EB ;
+  background-color: white;
+  display: grid;
+  grid-template-columns: .7fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr;
+  grid-template-areas: "b1 b2 b3 b4 b5 b";
+  border-radius: 1rem;
+}
+
+.subsub1-sub2-alerts-div2 .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subsub1-sub2-alerts-div2 p {
+  font-family: rregular;
+  color: #7A7D8B;
+  font-size: 1.5rem;
+}
+
+.subsub1-sub2-alerts-div2 :nth-child(1) {
+  grid-area: b1;
+}
+
+.subsub1-sub2-alerts-div2 :nth-child(2) {
+  grid-area: b2;
+}
+
+.subsub1-sub2-alerts-div2 :nth-child(3) {
+  grid-area: b3;
+}
+
+.sub1-import-gps-path-alerts {
+  font-size: 1.6rem;
+}
+
+.subsub1-sub2-alerts-div2 :nth-child(4){
+  grid-area: b4;
+}
+
+.subsub1-sub2-alerts-div2 :nth-child(5){
+  grid-area: b5;
+}
+
+.sub2-alerts-div2::-webkit-scrollbar{
+  width: 1.4rem;
+  margin-left: 1rem;
+}
+
+.sub2-alerts-div2::-webkit-scrollbar-track{
+  background-color: #F5F5F5;
+  border: .1rem solid #374957;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  border-bottom: 0rem;
+}
+.sub2-alerts-div2::-webkit-scrollbar-thumb{
+  background-color: #374957;
+  border-radius: 1rem;
+  
+} 
+
+@media(max-width:767px) {
+  .alerts-main {
+    padding: 5rem 1rem 0 1rem;
+  }
+
+  .subsub1-sub2-alerts-div2 {
+    height: inherit;
+    background-color: #364153;
+    border-radius: 1rem;
+  }
+
+  .alerts-main .sub2-div2 {
+    height: calc(100dvh - 38rem) !important;
+  }
+}
+
+
+  .Astart{
+    width: 22rem;
+    height: 2.3rem;
+    font-size: 1.7rem;
+    
+    position: absolute;
+    top: 26.5rem;
+    left: 93.2rem;
+    z-index: 1;
+    cursor: pointer;
+
+  }
+  .Astart :nth-child(1){
+    background-color: white;
+    color: black;
+    border-color: #DFE0EB;
+    border-width: .1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    /* font-size: 3rem; */
+    font-family: rregular;
+    text-align: center;
+  }
+  .Aend {
+    width: 22rem;
+    height: 2.3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+
+    position: absolute;
+    top: 26.5rem;
+    left: 120rem;
+    z-index: 1;
+  }
+  .Aend :nth-child(1){
+    background-color: white;
+    color: black;
+    border-color: #DFE0EB;
+    border-width: .1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: rregular;
+    text-align: center;
+  }
+  .rasta-stripes{
+    width: auto;
+    height: auto;
+/* padding-left: 2rem; */
+border: 1rem solid grey;
+  }
+  .rasta-stripes :nth-child(1){
+    font-size: 1.4rem;
+margin-right: .5rem;
+  }
+  .rasta-stripes :nth-child(2){
+    font-size: 1.4rem;
+
+  }
+  .rasta-stripes {
+    border: none !important;
+  }
+
+.react-datepicker__header {
+    background-color: #fff;
+    border-bottom: none;
+}
+.react-datepicker__day-name{
+  color: #c3c4cf !important;
+}
+.react-datepicker__day--today{
+  color: white;
+  background-color: red;
+  border-radius: 30px;
+  line-height: 4rem !important;
+  width: 40px !important;
+  height: 40px;
+}
+.react-datepicker__day--selected{
+  background-color: rgb(252, 101, 101);
+  border-radius: 30px;
+  line-height: 4rem !important;
+  width: 40px !important;
+  height: 40px;
+}

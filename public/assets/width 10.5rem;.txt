@@ -1,0 +1,26 @@
+   width: 10.5rem;                                                                     
+    height: 1.6rem;
+    /* background-color: rgb(17, 167, 205); */
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 0.9rem;
+    right: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .icon-hover:hover{
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 0rem 0rem .8rem rgba(6, 60, 135, 0.5);
+    background-color: rgb(166, 180, 200, 65%);
+    border-radius: 3rem;
+    border: 0;
+  }
+  .icon-hover{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

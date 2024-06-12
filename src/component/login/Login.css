@@ -1,0 +1,28 @@
+.subsub1-sub1-auth-right .forgot-password {
+    border-bottom: .1rem solid white;
+}
+
+.login-bt-fade {
+    color: rgba(177, 68, 68, 0.81) !important;
+}
+
+.loading {
+    border: 1.5px solid #ac0606;
+    width: 20% !important;
+    border-radius: 50% !important;
+    border-top-color: #751ecd;
+    border-left-color: #0fac7a;
+    margin-left: 43% !important;
+    margin-top: 10% !important;
+    animation: spin 1s infinite ease-in;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

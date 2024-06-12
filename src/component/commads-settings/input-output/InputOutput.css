@@ -1,0 +1,210 @@
+.sub1-input-output-div3 {
+  height: calc(100dvh - 29rem);
+  border: 0.1rem solid #dfe0eb;
+  border-radius: 2rem;
+  background-color: #F3F4F7;
+  scrollbar-width: none;
+}
+
+.command-unit {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  line-height: 1rem;
+}
+
+.command-unit p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.command-unit .title img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.update-time {
+  height: 1.2rem;
+  background-color: #D01400;
+}
+
+.input-element-container {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.input-element {
+  width: 29.1rem;
+  height: 3.3rem;
+  border: .1rem solid #898A8D;
+  font-size: 1.2rem;
+  font-family: rregular;
+  border-radius: .5rem;
+  color: #898A8D;
+}
+
+.input-element .label {
+  line-height: 1rem;
+  top: .1rem;
+  left: 1rem;
+}
+
+.input-element .label label {
+  color: #898A8D;
+  padding-top: .3rem;
+}
+
+.input-element .element {
+  height: 90%;
+  font-size: 1.2rem;
+  font-family: rregular;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-output-switch {
+  position: relative;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1.1rem;
+}
+
+.input-output-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.input-output-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(166, 180, 200, 25%);
+  transition: 0.4s;
+  border-radius: 5rem;
+}
+
+.input-output-slider:before {
+  position: absolute;
+  content: "";
+  border: .1rem solid #EEF0F5;
+  height: 1.6rem;
+  width: 1.6rem;
+  left: -0.1rem;
+  bottom: -0.3rem;
+  background-color: #FAFBFB;
+  transition: 0.4s;
+  border-radius: 5rem;
+}
+
+input:checked+.input-output-slider {
+  background-color: #FD2A22;
+  border-radius: 5rem;
+  box-shadow: 0rem 0rem 1rem #FD2A22;
+}
+
+input:checked+.input-output-slider::before {
+  transform: translateX(1.5rem);
+}
+
+.subsub2-sub1-subsub1-sub1-input-output-div3 {
+  background-color: white;
+  height: 9.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.sub1-subsub2-sub1-subsub1-sub1-input-output-div3 {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub1-subsub2-sub1-subsub1-sub1-input-output-div3 p {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  margin-top: -0.1rem;
+  font-family: rregular;
+}
+
+.subsub1-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 {
+  display: flex;
+}
+
+.subsub1-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 :nth-child(3) {
+  width: 10.6rem;
+  height: 1.8rem;
+  border: .1rem solid #898A8D;
+  border-radius: .5rem;
+  margin-left: 2rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: rregular;
+  color: black;
+}
+
+.subsub2-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 {
+  display: flex;
+}
+
+.sub1-subsub2-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 {
+  display: flex;
+  width: 10.6rem;
+  height: 1.8rem;
+  border: .1rem solid #898A8D;
+  border-radius: .5rem;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.sub1-subsub2-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 :nth-child(1) {
+  width: 7.5rem;
+  height: 100%;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: rregular;
+  border: 0;
+  border-radius: .5rem;
+  padding-left: 3.5rem;
+  padding-right: .5rem;
+}
+
+.sub1-subsub2-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 :nth-child(2) {
+  position: absolute;
+  right: 1rem;
+  width: 2rem;
+  height: 1.4rem;
+}
+
+.subsub3-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 {
+  display: flex;
+}
+
+.subsub3-sub1-subsub2-sub1-subsub1-sub1-input-output-div3 :nth-child(3) {
+  width: 10.6rem;
+  height: 1.8rem;
+  border: .1rem solid #898A8D;
+  border-radius: .5rem;
+  margin-left: 2rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: rregular;
+  color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

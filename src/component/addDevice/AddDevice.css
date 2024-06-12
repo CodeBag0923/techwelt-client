@@ -1,0 +1,119 @@
+.add-device-main p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    color:#AD0606;
+    font-weight: 700;
+    padding-left: 5rem;
+}
+
+.add-device-main .vehicle-icon {
+    width: 5.5rem;
+    height: 2rem;
+    right: 7rem;
+    top: 4rem;
+}
+
+.add-input-container {
+    width: 45rem;
+}
+
+.mobile-image {
+    width: 14rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.add-device-main .normal-input {
+    border: .1rem solid #DFE0EB;
+    height: 4rem;
+    padding-left: 1rem;
+    outline: none;
+    border-radius: .8rem;
+    font-family: msemi;
+}
+
+.add-device-div1 {
+    border: .1rem solid #DFE0EB;
+    border-radius: 2rem;
+    background-color: rgb(223,224,235,12%);
+    font-size: 1.6rem;
+}
+
+.left-subsub1-sub1-add-device-div1 {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.left-subsub1-sub1-add-device-div1 label {
+    font-family: rregular;
+}
+
+.ma {
+    padding-left: 1rem;
+}
+
+.right-subsub1-sub1-add-device-div1,
+.sensors {
+    border: .1rem solid #DFE0EB;
+    border-radius: 2rem;
+    height: max-content;
+}
+
+.sub5-right-subsub1-sub1-add-device-div1 button {
+    width: 45rem !important;
+    height: 4rem !important;
+    background-color: #AD0606;
+    color:white;
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    border: 0;
+}
+
+@media(max-width:768px) {
+    .add-device-main {
+        padding: 2rem 1rem;
+        overflow-y: auto;
+        background-color: #F3F4F7;
+    }
+
+    .add-device-main p {
+        text-align: center;
+        font-size: 3rem;
+        padding-left: 0;
+    }
+
+    .add-device-main .vehicle-icon {
+        top: 4.5rem;
+        right: 4.5rem;
+    }
+
+    .add-device-div1 {
+        flex-direction: column;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 1rem !important;
+        border: none;
+        background-color: inherit;
+    }
+
+    .left-subsub1-sub1-add-device-div1 {
+        width: 100% !important;
+    }
+
+    .add-input-container {
+        width: 100%;
+    }
+    
+    .add-input-container label {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    .add-device-main .normal-input {
+        width: 100%;
+    }
+
+    .sub5-right-subsub1-sub1-add-device-div1 button {
+        width: 100% !important;
+    }
+}

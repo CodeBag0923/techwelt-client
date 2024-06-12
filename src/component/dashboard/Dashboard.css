@@ -1,0 +1,40 @@
+.map-container {
+  height: calc(100dvh - 11rem);
+}
+
+.marker-info {
+  background-color: red;
+  border: .2rem solid white;
+  border-radius: 1rem;
+}
+
+@media(max-width:767px) {
+  .map-container {
+    height: 100dvh;
+  }
+  
+  #map-container .mapboxgl-canvas {
+    width: 100% !important;
+    height: 100vh !important;
+  }
+
+  #map-container {
+    height: 100dvh;
+  }
+
+  #map-container .mapboxgl-control-container {
+    display: none;
+  }
+
+  .map-container .field-input {
+    height: 3rem;
+    top: 3.5rem;
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+    border: 0.1rem solid #DFE0EB;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: rregular;
+  }
+}
