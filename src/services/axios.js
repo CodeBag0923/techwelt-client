@@ -47,7 +47,7 @@ const verifyEmail = async (props) => {
           "Email verified failed. Would you like to resend verify email?"
         );
         if (isResend) {
-          await axios.post(`/auth/resendEmail`, {
+          await axios.post(`/auth/resendEmailbyUserId`, {
             userId: props.userId,
           });
         }
@@ -58,10 +58,24 @@ const verifyEmail = async (props) => {
       "Email verified failed. Would you like to resend verify email?"
     );
     if (isResend) {
-      await axios.post(`/auth/resendEmail`, {
+      await axios.post(`/auth/resendEmailbyUserId`, {
         userId: props.userId,
       });
     }
+  }
+};
+
+const resendVerifyEmail = async ({ email }) => {
+  try {
+    var result = await axios.post(`/auth/resendEmail`, {
+      email,
+    });
+    if (result) {
+      return true;
+    }
+    return false;
+  } catch (error) {
+    return false;
   }
 };
 
@@ -254,6 +268,7 @@ export {
   updateDevice,
   signInUser,
   verifyEmail,
+  resendVerifyEmail,
   forgotPass,
   removeDevice,
   resetUser,

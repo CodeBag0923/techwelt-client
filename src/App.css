@@ -98,7 +98,8 @@ button {
 .main-form {
   background-color: rgb(178, 178, 178, 7%);
   border-radius: 5.6rem;
-  height: calc(100dvh - 32rem);
+  height: auto;
+  padding: 30px;
 }
 
 #auth .subsub1-sub1-auth-right {
